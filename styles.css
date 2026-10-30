@@ -17,6 +17,11 @@ body {
     align-content: center;
 }
 
+h1 {
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 500;
+}
+
 .sedans-card {
     background-color: var(--color-orange)
 }
@@ -28,10 +33,20 @@ body {
     background-color: var(--color-dark-green)
 }
 
+img {
+    margin-top: 2rem;
+}
+
+h1, p {
+    color: white;
+}
+
 img, h1, p {
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
 }
 
 button {
-    margin: 0rem 1rem;
+    margin: 2rem 0rem 2rem 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
 }
