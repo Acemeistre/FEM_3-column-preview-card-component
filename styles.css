@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-grey: #F2F2F2;
+    --color-dark-green: #004140;
+    --color-green: #19B89D;
+    --color-dark-cyan: #006971;
+    --color-cyan: #26B5C0;
+    --color-orange: #E28625;
+    --color-light-orange: #FFD473;
+}
+
+body {
+    display: flex;
+    align-content: center;
+}
+
+.sedans-card {
+    background-color: var(--color-orange)
+}
+
+.suvs-card {
+    background-color: var(--color-dark-cyan)
+}
+.luxury-card {
+    background-color: var(--color-dark-green)
+}
+
+img, h1, p {
+    padding: 0rem 1rem;
+}
+
+button {
+    margin: 0rem 1rem;
+}
