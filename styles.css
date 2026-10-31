@@ -21,20 +21,32 @@ h1 {
     font-family: "Big Shoulders", sans-serif;
     font-weight: 500;
 }
+p {
+    font-weight: 200
+}
 
 .sedans-card {
-    background-color: var(--color-orange)
+    background-color: var(--color-orange);
+    max-width: 18.5rem;
+    line-height: 1.75rem;
+    border-radius: 1rem 0 0 1rem;
 }
 
 .suvs-card {
-    background-color: var(--color-dark-cyan)
+    background-color: var(--color-dark-cyan);
+    max-width: 18.5rem;
+    line-height: 1.75rem;
 }
+
 .luxury-card {
-    background-color: var(--color-dark-green)
+    background-color: var(--color-dark-green);
+    max-width: 18.5rem;
+    line-height: 1.75rem;
+    border-radius: 0 1rem 1rem 0;
 }
 
 img {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 h1, p {
@@ -42,11 +54,27 @@ h1, p {
 }
 
 img, h1, p {
-    padding: 0rem 2rem;
+    padding: 0rem 3rem;
+}
+
+p, button {
+    font-family: "Lexend Deca", sans-serif;
 }
 
 button {
-    margin: 2rem 0rem 2rem 2rem;
+    margin: 3rem 0rem 2rem 2rem;
     padding: 1rem 2rem;
     border-radius: 1.5rem;
+}
+
+.btn-sedans {
+    color: var(--color-orange)
+}
+
+.btn-suvs {
+    color: var(--color-dark-cyan)
+}
+
+.btn-luxury {
+    color: var(--color-dark-green)
 }
