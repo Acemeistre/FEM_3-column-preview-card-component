@@ -79,6 +79,28 @@ button {
     border: hidden;
 }
 
+.btn:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.btn:active {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-sedans:active {
+    background-color: var(--color-orange);
+}
+
+.btn-suvs:active {
+    background-color: var(--color-dark-cyan);
+}
+
+.btn-luxury:active {
+    background-color: var(--color-dark-green);
+}
+
 @media (min-width: 640px) {
     body {
         margin: 6rem;
