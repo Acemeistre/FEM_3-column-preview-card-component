@@ -45,8 +45,8 @@ Users should be able to:
 First time incorporating a full step by step process of each update that was pushed through git to GitHub.
 
 - What challenges did you encounter, and how did you overcome them?
-button was unwantedly changing position relative to the bottom of the card based of width of the viewport.
-Instead of individual cards handling the padding I gave cards a shared class - multi-classing is best pratice moving forward.
+The suvs button was unwantedly changing position relative to the bottom of the card based of width of the viewport.
+Instead of individual cards handling the padding I gave the cards a shared class - multi-classing is best pratice moving forward.
 
 - What specific areas of your project would you like help with?
 Uncertain.
